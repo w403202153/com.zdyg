@@ -21,8 +21,7 @@ public class EmailUtil {
 		
 		Session session = Session.getDefaultInstance(prop, new Authenticator() {
 			 protected PasswordAuthentication getPasswordAuthentication() {
-		            return new PasswordAuthentication(
-		                "w403202153@163.com", "w403202153@163.c");// 
+		            return null;
 		        }
 		});
 		session.setDebug(true);
